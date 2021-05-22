@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #000;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #111;
+        }
+
+    </style>
+</head>
+<body>
+    <script>
+        alert("VOCÊ DEVERÁ DESCOBRIR A SENHA, TODA VEZ QUE VC SAIR DESSA PAGINA OU RECARREGAR, SEU PROGRESSO ESTARÁ PERDIDO")
+        alert(".--. .- .-. .- / -.. . ... -.-. --- -... .-. .. .-. / .- / ... . -. .... .- --..-- / ...- --- -.-. -..-. / -.. . ...- . / ..- ... .- .-. / ....- / -. # -- . .-. --- ... --..-- / -- .- ... / .- / ... . -. .... .- / -.-. --- -. - . -- / ..--- / -. # -- . .-. --- ... --..-- / -. .--.- --- / ... . -. -.. --- / -. . -. .... ..- -- / -.. --- ... / ....- / --.- ..- . / ...- --- -.-. -..-. / .--. .-. . -.-. .. ... .-")
+
+        var num1 = prompt("Primeiro número")
+        var num2 = prompt("Segundo número")
+        var num3 = prompt("Terceiro número")
+        var num4 = prompt("Quarto número")
+        var op = prompt("+ - / *")
+
+        var resultado = prompt("O resultado é?")
+
+        switch(num1) {
+            case "9":
+                console.log("O primeiro número está certo")
+                break;
+            default:
+                console.error("TEM UM NÚMERO ERRADO")
+
+        }
+
+        switch(num2) {
+            case "3":
+                console.log("O segundo núemro está certo")
+                break;
+                default: 
+                console.error("TEM UM NÚMERO ERRADO")
+        }
+
+        switch(num3) {
+            case "1": 
+            console.log("O terceiro número está certo")
+            break;
+            default: 
+            console.error("TEM UM NÚMERO ERRADO")
+        }
+
+        switch(num4) {
+            case "7": 
+            console.log("O quarto número está certo")
+            break;
+            default: 
+            console.error("TEM UM NÚMERO ERRADO")
+        }
+
+        switch(resultado) {
+            case "20":
+            alert("VOCE CONSEGUIU!!!")
+            
+        }
+        num1 = parseFloat(num1)
+        num2 = parseFloat(num2)
+        num3 = parseFloat(num3)
+        num4 = parseFloat(num4)
+
+        if (op == "+") {
+            alert(num1 + num2 + num3 + num4)
+        }
+        else {
+            console.error("EXPRESSÃO ERRADA")
+
+        }
+
+    </script>
+    <h1>é um número mais proximo do que você imagina!</h1>
+</body>
+</html>
